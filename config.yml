@@ -1,0 +1,26 @@
+# Настройки для разных типов мобов
+healthMultipliers:
+  ZOMBIE: 2.0
+  SKELETON: 1.5
+  SPIDER: 1.8
+
+# Вероятность применения дополнительных эффектов для каждого типа мобов
+extraEffectChances:
+  ZOMBIE: 0.3
+  SKELETON: 0.2
+  SPIDER: 0.4
+
+# Дополнительные эффекты для каждого типа мобов
+mobEffects:
+  ZOMBIE:
+    - SPEED:1
+    - REGENERATION:1
+  SKELETON:
+    - INCREASE_DAMAGE:1
+    - WEAKNESS:1
+  SPIDER:
+    - INCREASE_DAMAGE:1
+    - SLOW:1
+
+# Сообщение о мобе при использовании команды /mobhealth <mob>
+mobInfoMessage: "Моб: %mob%, Здоровье: %health%, Эффекты: %effects%"
